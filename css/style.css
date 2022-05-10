@@ -40,6 +40,19 @@ img{
     overflow: hidden;
     
 }
+
+.title{
+    font-size: 2rem;
+    color: var(--white-color);
+    font-weight: 700;
+    
+}
+.about{
+    font-size: calc(1rem + 6px);
+    color: var(--primary-softBlue-color);
+    line-height: 1.6;
+    font-weight: 400;
+}
 .action{
     width: 100%;
     list-style: none;
