@@ -27,6 +27,9 @@ img{
     object-fit: cover;
     display: block;
 }
+a{
+    text-decoration: none;
+}
 .container{
     width: 95%;
     max-width: 300px;
@@ -104,20 +107,22 @@ img{
     width: 15px;
     height: 25px;
 }
-.action li span{
+.action li a{
     color: var(--primary-softBlue-color);
     font-size: 1.4rem;
     vertical-align: top;
     line-height: 1.6;
 }
-.action li:first-child span{
+.action li:first-child a{
     color: var(--primary-cyan-color);
 }
 .title:hover,.author:hover{
     color: var(--primary-cyan-color);
     transition: color 1s ;
 }
-
+a:focus{
+    outline: 1px solid #000;
+}
 
 
 
@@ -134,7 +139,7 @@ footer{
     align-items:center;
     justify-content: start;
 }
-footer h3{
+footer p{
     color: var(--primary-softBlue-color);
     font-size: 1.6rem;
     font-weight: 400;

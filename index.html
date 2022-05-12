@@ -11,39 +11,44 @@
 
 </head>
 <body>
-    <main class="container">
+    <main class="container" role="main">
         <div class="showcase">
-            <img src="images/image-equilibrium.jpg" alt="card-img" />
-           <div class="view"><img src="images/icon-view.svg" alt="view-img"></div>
+            <img src="images/image-equilibrium.jpg" alt="diamond image with darkblue background " />
+            <div class="view">
+                <img src="images/icon-view.svg" alt="view small image"aria-labell="you are in hover state of the showcase image">
+            </div>
         </div>
         <div class="content">
-            <h1 class="title">Equilibrium #3429</h1>
+            <h1 id="main-tittle" class="title">Equilibrium #3429</h1>
             <p class="about">
                 Our Equilibrium collection promotes balance and calm.
             </p>
-            <ul class="action">
-                <li><img src="images/icon-ethereum.svg" alt="" /><span>0.041 ETH</span></li>
-                <li><img src="images/icon-clock.svg" alt=""><span>3 days left</span></li>
+            <ul class="action"role="navigation-post">
+                <li><img src="images/icon-ethereum.svg" alt="ethereum icon" /><a href="#" aria-labell="0.041 ETH">0.041 ETH</a></li>
+                <li><img src="images/icon-clock.svg" alt="clock icon"><a aria-labell="3 days left"href="#">3 days left</a></li>
             </ul>
-            
-            
+
+
 
         </div>
-        <footer>
+        <footer role="footer">
             <div class="avatar-img">
-                <img src="images/image-avatar.png" alt="author-img">
+                <a href="#"><img src="images/image-avatar.png" alt="author image">
+                </a>
             </div>
-            <h3>Creation of <span class="author">Jules Wyvern</span></h3>
+            <p>
+                Creation of <a class="author" href="#" id="author-name">Jules Wyvern</a>
+            </p>
         </footer>
     </main>
 
 
 
 
-    
-    
 
-    
+
+
+
 
     <div class="attribution">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
